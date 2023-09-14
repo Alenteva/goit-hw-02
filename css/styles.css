@@ -1,5 +1,5 @@
 body{
-  background:pink;
+  background: #FFF;
   width: 1440px;
   height: 3300px;
   padding: 0px;
@@ -7,7 +7,7 @@ body{
 header{
     border-bottom: 1px solid,#E7E9FC;
     background:#FFF;
-    display: flex;
+    display: inline-flex;
     width: 1440px;
     height: 72px;
     margin-bottom: 0px;
@@ -303,3 +303,94 @@ flex-direction: column;
 .section3-team-cards-tom{margin-right: 24px;}
 .section3-team-cards-camila{margin-right: 24px;}
 .section3-team-cards-daniel{margin-right: 24px;}
+
+.section4-list > ul> li{
+  display: inline-flex;
+  width: 360px;
+  height: 420px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+  border: 1px solid var(--CORNFLOWER, #E7E9FC);
+  background: var(--WHITE, #FFF);
+  margin-bottom: 0px;
+}
+.section4-list-name{
+  color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+.section4-list-item-1{
+margin-left: 100px;
+margin-bottom: 48px;
+margin-right: 24px;
+}
+.section4-list-item-2{
+  margin-right: 24px;
+}
+.section4-list-item-3{
+  margin-right: 100px;
+}
+.section4-list-item-4{
+  margin-left: 100px;
+  margin-bottom: 48px;
+  margin-right: 24px;}
+.section4-list-item-5{
+  margin-right: 24px;
+}
+.section4-list-item-6{
+    margin-right: 100px;
+}
+.list-item-name{
+  color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    margin-top: 32px;
+    margin-left: 8px;
+}
+.list-item-products{
+  color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-left: 8px;
+    margin-bottom: 32px;
+}
+footer{
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+    background: var(--NAVY-BLUE, #2E2F42);
+    display: flexbox;
+    flex-direction: column;
+      align-items: flex-start;
+}
+.info{
+    color: var(--CLOUD, #F4F4FD);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    flex-direction: column;
+    align-items: flex-start;
+ 
+}
