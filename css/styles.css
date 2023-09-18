@@ -1,53 +1,64 @@
 body{
   background: #FFF;
-  color: var(--NAVY-BLUE, #2E2F42);
-  font-family: 'Roboto','Verdana',
-              'Tahoma' sans-serif;
+  color: #434455;
+  font-family:"Roboto" sans-serif;
     font-style: normal;
    text-decoration: none;
 }
 ul{
   list-style-type: none;
 }
+li{
+  list-style: none;
+}
 .logo{
+  color: var(--NAVY-BLUE, #2E2F42);
   font-family:'Raleway',sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1,166;
-  letter-spacing: 0.54px;
+  line-height: 1,1667;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .accent{
 color: var(--IRIS, #4D5AE5);
 }
 .menu{
+  color: var(--NAVY-BLUE, #2E2F42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1,5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
-.studio-menu:active{
+.studio-menu:hover,
+.studio-menu:focus{
   color: #404BBF;
 }
-.portfolio-menu:active{
+
+.portfolio-menu:hover,
+ .portfolio-menu:focus{
   color: #404BBF;
 }
-.Contacts-menu:active{
+.Contacts-menu:hover,
+ .Contacts-menu:focus{
   color: #404BBF;
 }
 .contacts{
-  color: var(--SLATE, #434455);
-    font-size: 16px;
+     color: var(--SLATE, #434455);
+     font-size: 16px;
       font-weight: 500;
       line-height: 1,5;
-      letter-spacing: 0.32px;
+      letter-spacing: 0.02em;
 }
 .mail:hover{
-  color:#404BBF;
+  color: #404BBF;
 }
 .telephone:hover{
   color: #404BBF;
 }
+
 .section1{
   background: var(--NAVY-BLUE, #2E2F42);
 }
@@ -57,7 +68,7 @@ color: var(--IRIS, #4D5AE5);
     font-size: 56px;
     font-weight: 700;
     line-height:1,071;
-    letter-spacing: 1.12px;
+    letter-spacing:0.02em;
 }
 .section1-button{
 border-radius: 4px;
@@ -66,26 +77,26 @@ border-radius: 4px;
   cursor:pointer;
 }
 .section1-button:hover{
-  color:#404BBF;
+  background:#404BBF;
 }
 .button{
   color: var(--WHITE, #FFF);
   font-size: 16px;
   font-weight: 500;
   line-height:1,5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
 }
 .advantages-item-name{
     font-size: 20px;
     font-weight: 500;
     line-height:1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 .advantages-item-description{
   color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1,5px;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .section3-Team{
   background: var(--CLOUD, #F4F4FD);
@@ -95,39 +106,39 @@ border-radius: 4px;
     font-size: 36px;
     font-weight: 700;
     line-height:1,111;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .section3-team-names{
     font-size: 20px;
     font-weight: 500;
     line-height:1,2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 .section3-team-profession{
   color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1,5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .section4-portfolio-title{
     font-size: 36px;
     font-weight: 700;
     line-height:1,111;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .list-item-name{
     font-size: 20px;
     font-weight: 500;
     line-height: 1,2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 .list-item-products{
     color: var(--SLATE, #434455);
       font-size: 16px;
       line-height: 1,5;
-      letter-spacing: 0.32px;
+      letter-spacing: 0.02em;
 }
 .footer{
   background: var(--NAVY-BLUE, #2E2F42);
@@ -137,8 +148,8 @@ border-radius: 4px;
     font-family: 'Raleway',sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height:1,166;
-    letter-spacing: 0.54px;
+    line-height:1,1667;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .web{
@@ -149,6 +160,7 @@ border-radius: 4px;
     font-size: 16px;
     font-weight: 400;
     line-height:1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
