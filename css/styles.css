@@ -1,7 +1,7 @@
 body{
   background: #FFF;
   color: #434455;
-  font-family:"Roboto" sans-serif;
+  font-family:"Roboto",sans-serif;
     font-style: normal;
    text-decoration: none;
 }
@@ -12,148 +12,168 @@ li{
   list-style: none;
 }
 .logo{
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: #4d5ae5;
   font-family:'Raleway',sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1,1667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 .accent{
-color: var(--IRIS, #4D5AE5);
+color:#2e2f42; 
 }
 .menu{
   color: var(--NAVY-BLUE, #2E2F42);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.studio-menu:hover,
+.studio-menu:hover{
+color: #404BBF;
+}
 .studio-menu:focus{
   color: #404BBF;
 }
 
-.portfolio-menu:hover,
+.portfolio-menu:hover{
+  color: #404BBF;
+}
  .portfolio-menu:focus{
   color: #404BBF;
 }
-.Contacts-menu:hover,
+.Contacts-menu:hover{
+  color: #404BBF;
+}
  .Contacts-menu:focus{
   color: #404BBF;
 }
 .contacts{
-     color: var(--SLATE, #434455);
+  color: #434455;
      font-size: 16px;
       font-weight: 500;
-      line-height: 1,5;
+      line-height: 1.5;
       letter-spacing: 0.02em;
+      font-style: normal;
 }
 .mail:hover{
+  color: #404BBF;
+}
+.mail:focus{
   color: #404BBF;
 }
 .telephone:hover{
   color: #404BBF;
 }
+.telephone:focus{
+  color: #404BBF;
+}
 
-.section1{
+.section-one{
   background: var(--NAVY-BLUE, #2E2F42);
 }
-.section1-title{
+.section-one-title{
   color: var(--WHITE, #FFF);
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height:1,071;
+    line-height:1.07;
     letter-spacing:0.02em;
 }
-.section1-button{
-border-radius: 4px;
+.section-one-button{
   background: var(--IRIS, #4D5AE5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor:pointer;
 }
-.section1-button:hover{
+.section-one-button:hover{
   background:#404BBF;
+}
+.section-one-button:focus{
+  background: #404BBF;
 }
 .button{
   color: var(--WHITE, #FFF);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height:1,5;
-  letter-spacing: 0.04em;
+  line-height:1.5;
+  letter-spacing:0.04em;
 }
 .advantages-item-name{
+  color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
     line-height:1.2;
     letter-spacing: 0.02em;
 }
 .advantages-item-description{
-  color: var(--SLATE, #434455);
     font-size: 16px;
-    line-height: 1,5px;
+    line-height: 1.5px;
     letter-spacing: 0.02em;
 }
 .section3-Team{
   background: var(--CLOUD, #F4F4FD);
 }
-.section3-Team-title{
+.section-Team-title{
+  color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height:1,111;
+    line-height:1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.section3-team-names{
+.section-team-cards-mark{
+  background-color: #FFFFFF
+}
+.section-team-names{
+  color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
-    line-height:1,2;
+    line-height:1.2;
     letter-spacing: 0.02em;
 }
-.section3-team-profession{
-  color: var(--SLATE, #434455);
+.section-team-profession{
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.section4-portfolio-title{
+.section-portfolio-title{
+  color: var(--NAVY-BLUE, #2E2F42);
     font-size: 36px;
     font-weight: 700;
-    line-height:1,111;
+    line-height:1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .list-item-name{
+  color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .list-item-products{
-    color: var(--SLATE, #434455);
       font-size: 16px;
-      line-height: 1,5;
+      line-height: 1.5;
       letter-spacing: 0.02em;
 }
 .footer{
   background: var(--NAVY-BLUE, #2E2F42);
 }
 .footer-logo{
-  color: var(--CLOUD, #F4F4FD);
+  color: var(--IRIS, #4D5AE5);
     font-family: 'Raleway',sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height:1,1667;
+    line-height:1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.web{
-  color: var(--IRIS, #4D5AE5);
+.studio{
+  color: var(--CLOUD, #F4F4FD)
 }
 .footer-text{
   color: var(--CLOUD, #F4F4FD);
