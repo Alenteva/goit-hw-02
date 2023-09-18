@@ -21,7 +21,7 @@ li{
   text-transform: uppercase;
   text-decoration: none;
 }
-.accent{
+.studio{
 color:#2e2f42; 
 }
 .menu{
@@ -97,7 +97,7 @@ color: #404BBF;
   color: var(--WHITE, #FFF);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight:500;
   line-height:1.5;
   letter-spacing:0.04em;
 }
@@ -110,10 +110,10 @@ color: #404BBF;
 }
 .advantages-item-description{
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.section3-Team{
+.section-Team{
   background: var(--CLOUD, #F4F4FD);
 }
 .section-Team-title{
@@ -172,7 +172,7 @@ color: #404BBF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.studio{
+.footer-studio{
   color: var(--CLOUD, #F4F4FD)
 }
 .footer-text{
