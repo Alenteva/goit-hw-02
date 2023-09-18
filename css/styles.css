@@ -24,7 +24,7 @@ li{
 .studio{
 color:#2e2f42; 
 }
-.menu{
+.studio-menu{
   color: var(--NAVY-BLUE, #2E2F42);
   font-size: 16px;
   font-weight: 500;
@@ -39,11 +39,28 @@ color: #404BBF;
   color: #404BBF;
 }
 
+.portfolio-menu{
+    color: var(--NAVY-BLUE, #2E2F42);
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+}
 .portfolio-menu:hover{
   color: #404BBF;
 }
  .portfolio-menu:focus{
   color: #404BBF;
+}
+
+.Contacts-menu{
+  color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .Contacts-menu:hover{
   color: #404BBF;
@@ -51,7 +68,7 @@ color: #404BBF;
  .Contacts-menu:focus{
   color: #404BBF;
 }
-.contacts{
+.mail{
   color: #434455;
      font-size: 16px;
       font-weight: 500;
@@ -64,6 +81,14 @@ color: #404BBF;
 }
 .mail:focus{
   color: #404BBF;
+}
+.telephone{
+  color: #434455;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
 }
 .telephone:hover{
   color: #404BBF;
@@ -86,6 +111,12 @@ color: #404BBF;
 .section-one-button{
   background: var(--IRIS, #4D5AE5);
   cursor:pointer;
+  color: var(--WHITE, #FFF);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em
 }
 .section-one-button:hover{
   background:#404BBF;
@@ -93,14 +124,7 @@ color: #404BBF;
 .section-one-button:focus{
   background: #404BBF;
 }
-.button{
-  color: var(--WHITE, #FFF);
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight:500;
-  line-height:1.5;
-  letter-spacing:0.04em;
-}
+
 .advantages-item-name{
   color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
@@ -113,10 +137,10 @@ color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.section-Team{
+.section-team{
   background: var(--CLOUD, #F4F4FD);
 }
-.section-Team-title{
+.section-team-title{
   color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
