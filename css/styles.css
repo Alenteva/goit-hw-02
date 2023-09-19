@@ -42,6 +42,7 @@ color:#2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    font-style: normal;
 }
 .contacts-item:hover,.contacts-item:focus{
   color: #404BBF;
@@ -100,10 +101,10 @@ color:#2e2f42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.section-team-cards-mark{
+.section-team-cards{
   background-color: #FFFFFF
 }
-.section-team-names{
+.section-team-name{
   color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
