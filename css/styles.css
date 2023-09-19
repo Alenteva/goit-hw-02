@@ -36,6 +36,8 @@ color:#2e2f42;
   color: #404BBF;
 }
 .contacts{
+   font-style: normal;
+}
 .contacts-item{
     color: #434455;
     font-size: 16px;
@@ -43,7 +45,6 @@ color:#2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    font-style: normal;
 }
 .contacts-item:hover,.contacts-item:focus{
   color: #404BBF;
