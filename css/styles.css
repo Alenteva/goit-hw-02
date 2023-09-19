@@ -24,79 +24,26 @@ li{
 .studio{
 color:#2e2f42; 
 }
-.studio-menu{
-  color: var(--NAVY-BLUE, #2E2F42);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-.studio-menu:hover{
-color: #404BBF;
-}
-.studio-menu:focus{
-  color: #404BBF;
-}
-
-.portfolio-menu{
-    color: var(--NAVY-BLUE, #2E2F42);
+.menu-item{
+      color: var(--NAVY-BLUE, #2E2F42);
       font-size: 16px;
       font-weight: 500;
       line-height: 1.5;
       letter-spacing: 0.02em;
       text-decoration: none;
 }
-.portfolio-menu:hover{
+.menu-item:hover,.menu-item:focus{
   color: #404BBF;
 }
- .portfolio-menu:focus{
-  color: #404BBF;
-}
-
-.Contacts-menu{
-  color: var(--NAVY-BLUE, #2E2F42);
+.contacts-item{
+    color: #434455;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.Contacts-menu:hover{
-  color: #404BBF;
-}
- .Contacts-menu:focus{
-  color: #404BBF;
-}
-.contacts{
-  font-style: normal;
-}
-.mail{
-  color: #434455;
-     font-size: 16px;
-      font-weight: 500;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      text-decoration: none;
-}
-.mail:hover{
-  color: #404BBF;
-}
-.mail:focus{
-  color: #404BBF;
-}
-.telephone{
-  color: #434455;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-}
-.telephone:hover{
-  color: #404BBF;
-}
-.telephone:focus{
+.contacts-item:hover,.contacts-item:focus{
   color: #404BBF;
 }
 
@@ -140,6 +87,7 @@ color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .section-team{
   background: var(--CLOUD, #F4F4FD);
 }
@@ -167,6 +115,7 @@ color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .section-portfolio-title{
   color: var(--NAVY-BLUE, #2E2F42);
     font-size: 36px;
