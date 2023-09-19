@@ -68,13 +68,16 @@ color: #404BBF;
  .Contacts-menu:focus{
   color: #404BBF;
 }
+.contacts{
+  font-style: normal;
+}
 .mail{
   color: #434455;
      font-size: 16px;
       font-weight: 500;
       line-height: 1.5;
       letter-spacing: 0.02em;
-      font-style: normal;
+      text-decoration: none;
 }
 .mail:hover{
   color: #404BBF;
@@ -88,7 +91,7 @@ color: #404BBF;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
+    text-decoration: none;
 }
 .telephone:hover{
   color: #404BBF;
